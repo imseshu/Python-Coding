@@ -39,7 +39,8 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
         for i in range(0,len(nums)):
             for j in range(i+1, len(nums)):
                 if nums[i]+nums[j] == target:
-                    return [i,j]```
+                    return [i,j]
+```
                     
 ## Using Hash-map:
 ![](https://drive.google.com/file/d/14irjgDmkFfbWonYJ8gzu2U_4NvBPOtW-/view?usp=drivesdk)
