@@ -34,7 +34,8 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
 ## My Code:
-```class Solution:
+```
+class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(0,len(nums)):
             for j in range(i+1, len(nums)):
@@ -44,3 +45,15 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
                     
 ## Using Hash-map:
 ![image](https://drive.google.com/uc?export=view&id=14irjgDmkFfbWonYJ8gzu2U_4NvBPOtW-)
+## Hash-map Code:
+```
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hashidx={}
+        for index, value in enumerate(nums):
+            remaining=target-value
+            if remaining in hashidx:
+                return [index,hashidx[remaining]]
+            else:
+                hashidx[value]=index
+```
