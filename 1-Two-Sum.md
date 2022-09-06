@@ -42,7 +42,9 @@ class Solution:
                 if nums[i]+nums[j] == target:
                     return [i,j]
 ```
-                    
+> ### Complexity Analysis:
+>    1. Time Complexity : O(n^2)
+>    2. Space Complexity : O(1)                  
 ## Using Hash-map:
 ![image](https://drive.google.com/uc?export=view&id=14irjgDmkFfbWonYJ8gzu2U_4NvBPOtW-)
 ## Hash-map Code:
@@ -57,3 +59,7 @@ class Solution:
             else:
                 hashidx[value]=index
 ```
+> ### Complexity Analysis:
+>    1. Time Complexity : O(n)
+>    2. Space Complexity : O(n) 
+## HAPPY CODING!!!
