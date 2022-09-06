@@ -41,4 +41,4 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
                 if nums[i]+nums[j] == target:
                     return [i,j]```
 ## Using Hash-map:
-![Hashmap](https://drive.google.com/file/d/14irjgDmkFfbWonYJ8gzu2U_4NvBPOtW-)
+![](https://drive.google.com/file/d/14irjgDmkFfbWonYJ8gzu2U_4NvBPOtW-/view?usp=drivesdk)
