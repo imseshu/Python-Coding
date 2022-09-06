@@ -43,4 +43,4 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 ```
                     
 ## Using Hash-map:
-![image](https://drive.google.com/file/d/14irjgDmkFfbWonYJ8gzu2U_4NvBPOtW-/view?usp=sharing)
+![image](https://drive.google.com/uc?export=view&id=14irjgDmkFfbWonYJ8gzu2U_4NvBPOtW-)
